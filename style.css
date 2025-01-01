@@ -1,0 +1,118 @@
+body {
+      font-family: "SF Pro Display", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      text-align: center;
+      background-image: url("img-backg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      backdrop-filter: blur(5px);
+  }
+
+  .container {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+  }
+
+  .title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #00ffcc;
+  }
+
+  .subtitle {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      color: #aaaaaa;
+  }
+
+  .countdown {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+  }
+
+  .countdown div {
+      background: #1f1f1f;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      color: #00ffcc;
+      flex: 1;
+  }
+
+  .countdown div span {
+      display: block;
+      font-size: 4.5rem;
+      font-weight: bold;
+  }
+
+  .countdown div p {
+      margin: 0;
+      font-size: 1.5rem;
+  }
+
+  .propositos {
+      margin-top: 3rem;
+      text-align: center;
+      max-width: 800px;
+      color: #aaaaaa;
+  }
+
+  .propositos h2 {
+      font-size: 1.5rem;
+      color: #00ffcc;
+      margin-bottom: 1rem;
+  }
+
+  .propositos input {
+      padding: 0.5rem;
+      border: none;
+      border-radius: 4px;
+      width: 70%;
+      margin-bottom: 1rem;
+  }
+
+  .propositos button {
+      background: #6200ea;
+      color: #ffffff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+  }
+
+  .propositos ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+  }
+
+  .propositos ul li {
+      display: flex;
+      align-items: center;
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      padding-left: 1.5rem;
+      /* position: relative;        */
+  }
+
+  .propositos ul li input {
+      margin-right: 0.5rem;
+      display: flex;
+      flex-direction: row;
+      width: 120px;
+  }

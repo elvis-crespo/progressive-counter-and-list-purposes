@@ -1,0 +1,64 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>New Year's Resolutions and Countdown</title>
+  
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">New Year's Resolutions and Countdown!</h1>
+      <p class="subtitle">
+       Happy New Year! 🎉 May 2024 be filled with new opportunities, great achievements, and moments of happiness. May each day bring you closer to your dreams and surround you with love, health, and success. We appreciate your support and company, and look forward to continuing this new chapter together. Wishing you all the best in the New Year! 🥂✨
+      </p>
+
+      <div class="countdown" id="countdown">
+        <div>
+          <span id="days">00</span>
+          <p>Days</p>
+        </div>
+        <div>
+          <span id="hours">00</span>
+          <p>Hours</p>
+        </div>
+        <div>
+          <span id="minutes">00</span>
+          <p>Minutes</p>
+        </div>
+        <div>
+          <span id="seconds">00</span>
+          <p>Seconds</p>
+        </div>
+      </div>
+
+      <div class="propositos">
+        <h2 class="subtitle">Resolution List:</h2>
+        <input
+          type="text"
+          id="newProposito"
+          placeholder="Add a new resolution"
+        />
+        <button onclick="addProposito()">Add</button>
+        <ul id="propositosList">
+          <li>
+            <input type="checkbox" onchange="markGoal(this)" /> Learn a new skill.
+          </li>
+          <li>
+            <input type="checkbox" onchange="markGoal(this)" /> Save more money.
+          </li>
+          <li>
+            <input type="checkbox" onchange="markGoal(this)" /> Travel to a new place.
+          </li>
+          <li>
+            <input type="checkbox" onchange="markGoal(this)" /> Spend more time with family.
+          </li>
+          <li>
+            <input type="checkbox" onchange="markGoal(this)" /> Exercise regularly.
+          </li>
+        </ul>
+      </div>
+
+      <script src="script.js"></script>
+  </body>
+</html>
